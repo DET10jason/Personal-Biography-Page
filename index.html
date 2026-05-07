@@ -127,18 +127,18 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/HairDay.png" alt="HD Salon" style="width:100%">
+                        <img class="card-img-top" src="images/Weather App.png" alt="weatherapp" style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title">Salon's Homepage</h4>
-                            <p class="card-text">My very first webpage created. Utlizing HTML/CSS/JS concepts, this illustrates where I started from compared to what I've been able to do now just in the span of a couple of months. Built with VS Code platform.</p>
+                            <h4 class="card-title">Weather App v1.0</h4>
+                            <p class="card-text">I created this weather app following my graduation from the Meta Frontend developer course. I wanted to create something interactive and with a heavy use of API integration. I did also utilize AI assistance for this project as I kept running into roadblocks. However, I very carefully instructed and prompted the AI helper on exactly what I wanted.</p>
                             <div class="text-center">
-                                <a href="https://github.com/DET10jason/Hair-Day-Salon-webpage" class="btn btn-success">Link</a>
+                                <a href="https://weather-app-mu-rose-10.vercel.app" class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <br>
+            <!--<br>
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
@@ -179,6 +179,7 @@
                     </div>
                 </div>
             </div>
+        -->
     </section>
 
     <!-- contact section-->
@@ -202,15 +203,15 @@
 
                 <div class="col-lg-6">
                     <!-- form fields -->
-                    <form>
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
-                        <input type="email" class="form-control mt-3" placeholder="Email">
-                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <form action="https://formspree.io/f/meenlgra" method="POST">
+                        <input type="text" name="name" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" name="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" name="subject" class="form-control mt-3" placeholder="Subject">
                         <div class="mb-3 mt-3">
-                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Message"></textarea>
+                            <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Message"></textarea>
                         </div>
+                        <button type="submit" class="btn btn-success mt-3 w-100">Contact Me</button>
                     </form>
-                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
 
                 </div>
 
